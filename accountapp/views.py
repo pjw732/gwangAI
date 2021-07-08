@@ -4,5 +4,10 @@ from django.shortcuts import render     # render(변수, 불러올 파일)
 # Create your views here.
 
 
-def Hello_world(request):
-    return render(request, 'accountapp/hello_world.html')
+def hello_world(request):
+    if request.method == "POST":
+        return render(request, 'accountapp/hello_world.html',
+                      context={'text': 'GET METHOD'})
+    else:
+        return render(request, 'accountapp/hello_world.html',
+                      context={'text': 'POST METHOD'})
