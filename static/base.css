@@ -1,15 +1,24 @@
-.prag_header_logo{
-    margin: 2rem 0; font-family: 'Ubuntu', sans-serif;
+.pragmatic_header_logo{
+    margin: 2rem 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.prag_header_button{
-    margin-bottom: 2rem; font-family: 'Ubuntu', sans-serif;
+.pragmatic_header_button{
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.prag_footer_logo{
-    margin: 1.5rem 0; font-family: 'Ubuntu', sans-serif;
+.pragmatic_footer_logo{
+    margin: 1.5rem 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.prag_footer_button{
-    margin-top: 1.5rem; font-family: 'Yomogi', cursive;
+.pragmatic_footer_button{
+    margin-top: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mw-500 {
+    max-width: 500px;
+    padding: 1rem 1.5rem;
 }
